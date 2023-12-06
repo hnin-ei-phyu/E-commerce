@@ -59,33 +59,33 @@
                     <li class="list-group-item active"> Payment Type
 
                     <div class="accordion accordion-flush" id="accordionFlushExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-       <input type="radio" name="payment_type" value="Cash On Delivery"> &nbsp;&nbsp; Cash On Delivery
-      </button>
-    </h2>
-    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body"> Make Payment when the order is delivered   </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-             <input type="radio" name="payment_type" value="KPay"> &nbsp;&nbsp; KPay  &nbsp;&nbsp;
-             <input type="radio" name="payment_type" value="Wave Pay"> &nbsp;&nbsp; Wave Pay &nbsp;&nbsp;
-             <input type="radio" name="payment_type" value="Bank Transfer">  &nbsp;&nbsp;Bank Transter &nbsp;&nbsp;
-      </button>
-    </h2>
-    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
-         <h5> Upload Payment Receipt Copy Here </h5>
-         <input type="file" name="receipt_copy" id="">
-      </div>
-    </div>
-  </div>
-  
-</div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                          <input type="radio" name="payment_type" value="Cash On Delivery"> &nbsp;&nbsp; Cash On Delivery
+                          </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body"> Make Payment when the order is delivered   </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                <input type="radio" name="payment_type" value="KPay"> &nbsp;&nbsp; KPay  &nbsp;&nbsp;
+                                <input type="radio" name="payment_type" value="Wave Pay"> &nbsp;&nbsp; Wave Pay &nbsp;&nbsp;
+                                <input type="radio" name="payment_type" value="Bank Transfer">  &nbsp;&nbsp;Bank Transter &nbsp;&nbsp;
+                          </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                          <div class="accordion-body">
+                            <h5> Upload Payment Receipt Copy Here </h5>
+                            <input type="file" name="receipt_copy" id="">
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
 
                         
                 

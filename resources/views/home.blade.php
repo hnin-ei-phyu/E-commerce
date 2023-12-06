@@ -10,7 +10,7 @@
                 <div class="rounded-top text-white d-flex flex-row" style="background-color: #000; height:200px;">
                     <div class="ms-4 mt-5 d-flex flex-column" style="width: 150px;">
                       @if($user[0]->photo=="" || $user[0]->photo == "none" )
-                    <img src="{{asset('images/sunglasses2.png')}}"
+                    <img src="{{asset('images/siyeon.png')}}"
                         alt="Generic placeholder image" class="img-fluid img-thumbnail mt-4 mb-2"
                         style="width: 150px; z-index: 1">
                       @else 

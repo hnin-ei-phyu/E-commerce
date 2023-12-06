@@ -11,6 +11,8 @@ use Laravel\Socialite\Facades\Socialite;
 class LoginWithFacebookController extends Controller
 {
     public function redirectFacebook()
+
+    
     {
         return Socialite::driver('facebook')->redirect();
     }
@@ -19,7 +21,9 @@ class LoginWithFacebookController extends Controller
     {
         try {
         
-            $user = Socialite::driver('facebook')->user();
+            // $user = Socialite::driver('facebook')->user();
+            $user = Socialite::driver('facebook')->stateless()->user();
+            
          
             $finduser = User::where('facebook_id', $user->id)->first();
         
